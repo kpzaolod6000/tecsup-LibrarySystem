@@ -72,3 +72,8 @@ El sistema permite la interacción mediante diferentes roles: Administrador, Pro
 
 ## Autor
 Kelvin Pucho
+
+## Docs
+
+Verificar el archivo index.html de doxygen
+https://github.com/kpzaolod6000/tecsup-LibrarySystem/blob/master/documents/doxygen/html/index.html
