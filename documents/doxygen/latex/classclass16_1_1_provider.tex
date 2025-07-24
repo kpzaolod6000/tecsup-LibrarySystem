@@ -1,0 +1,111 @@
+\doxysection{class16.\+Provider Class Reference}
+\hypertarget{classclass16_1_1_provider}{}\label{classclass16_1_1_provider}\index{class16.Provider@{class16.Provider}}
+
+
+Inherits \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}, \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_provider}{class16.\+Tools.\+IProvider}}, \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_provider_data_input}{class16.\+Tools.\+IProvider\+Data\+Input}}, and \mbox{\hyperlink{interfaceclass16_1_1_i_validator}{class16.\+IValidator}}.
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classclass16_1_1_provider_acd08a097291b13e0978e059ca2cc7efb}{Provider}} (\mbox{\hyperlink{interfaceclass16_1_1_i_product_repository}{IProduct\+Repository}} repo)
+\item 
+void \mbox{\hyperlink{classclass16_1_1_provider_ad0e197827f7d89fa06b1eeb8a83933cd}{Input\+Data}} (string name, string email, string personal\+Id)
+\item 
+void \mbox{\hyperlink{classclass16_1_1_provider_aff0b43254ccd3e55539aa654d813d589}{Input\+Data}} (string company\+Name, string contact\+Email, string ruc\+Id, string legal\+Address)
+\item 
+bool \mbox{\hyperlink{classclass16_1_1_provider_a000914879f89ec41c40eadfe0fecca14}{Validate}} ()
+\item 
+override void \mbox{\hyperlink{classclass16_1_1_provider_abf3ed1f6d6fedd499fe017baad6d8c50}{Print}} ()
+\item 
+void \mbox{\hyperlink{classclass16_1_1_provider_a17c3d8b624a0b7cce94c512ef6198134}{Provide\+Product}} (string product)
+\item 
+void \mbox{\hyperlink{classclass16_1_1_provider_a7a8ae22c6fa2ce8c2436cdf2d0101fb2}{Provide\+Stock}} (Guid product\+Id, int quantity)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classclass16_1_1_user_a0c6a31b852002348fe078c9bd8dea0c4}{User}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classclass16_1_1_user_a614e04ac409ecaffd1839119991c7f67}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{classclass16_1_1_provider_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classclass16_1_1_provider_acd08a097291b13e0978e059ca2cc7efb}\index{class16.Provider@{class16.Provider}!Provider@{Provider}}
+\index{Provider@{Provider}!class16.Provider@{class16.Provider}}
+\doxysubsubsection{\texorpdfstring{Provider()}{Provider()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_provider_acd08a097291b13e0978e059ca2cc7efb} 
+class16.\+Provider.\+Provider (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_product_repository}{IProduct\+Repository}}}]{repo}{}\end{DoxyParamCaption})}
+
+
+
+\label{doc-func-members}
+\Hypertarget{classclass16_1_1_provider_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classclass16_1_1_provider_aff0b43254ccd3e55539aa654d813d589}\index{class16.Provider@{class16.Provider}!InputData@{InputData}}
+\index{InputData@{InputData}!class16.Provider@{class16.Provider}}
+\doxysubsubsection{\texorpdfstring{InputData()}{InputData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classclass16_1_1_provider_aff0b43254ccd3e55539aa654d813d589} 
+void class16.\+Provider.\+Input\+Data (\begin{DoxyParamCaption}\item[{string}]{company\+Name}{, }\item[{string}]{contact\+Email}{, }\item[{string}]{ruc\+Id}{, }\item[{string}]{legal\+Address}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_provider_data_input_ab5d0c7863709ef679cceb454983272be}{class16.\+Tools.\+IProvider\+Data\+Input}}.
+
+\Hypertarget{classclass16_1_1_provider_ad0e197827f7d89fa06b1eeb8a83933cd}\index{class16.Provider@{class16.Provider}!InputData@{InputData}}
+\index{InputData@{InputData}!class16.Provider@{class16.Provider}}
+\doxysubsubsection{\texorpdfstring{InputData()}{InputData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classclass16_1_1_provider_ad0e197827f7d89fa06b1eeb8a83933cd} 
+void class16.\+Provider.\+Input\+Data (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{string}]{email}{, }\item[{string}]{personal\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_provider_data_input_ad5e46a1341d60407a721f59c7cf64de2}{class16.\+Tools.\+IProvider\+Data\+Input}}.
+
+\Hypertarget{classclass16_1_1_provider_abf3ed1f6d6fedd499fe017baad6d8c50}\index{class16.Provider@{class16.Provider}!Print@{Print}}
+\index{Print@{Print}!class16.Provider@{class16.Provider}}
+\doxysubsubsection{\texorpdfstring{Print()}{Print()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_provider_abf3ed1f6d6fedd499fe017baad6d8c50} 
+override void class16.\+Provider.\+Print (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classclass16_1_1_user_af661c0ab9d99caaad43e0f43df0aab62}{class16.\+User}}.
+
+\Hypertarget{classclass16_1_1_provider_a17c3d8b624a0b7cce94c512ef6198134}\index{class16.Provider@{class16.Provider}!ProvideProduct@{ProvideProduct}}
+\index{ProvideProduct@{ProvideProduct}!class16.Provider@{class16.Provider}}
+\doxysubsubsection{\texorpdfstring{ProvideProduct()}{ProvideProduct()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_provider_a17c3d8b624a0b7cce94c512ef6198134} 
+void class16.\+Provider.\+Provide\+Product (\begin{DoxyParamCaption}\item[{string}]{product}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_provider_aea7fe260188e1fc77e965dbde2c795db}{class16.\+Tools.\+IProvider}}.
+
+\Hypertarget{classclass16_1_1_provider_a7a8ae22c6fa2ce8c2436cdf2d0101fb2}\index{class16.Provider@{class16.Provider}!ProvideStock@{ProvideStock}}
+\index{ProvideStock@{ProvideStock}!class16.Provider@{class16.Provider}}
+\doxysubsubsection{\texorpdfstring{ProvideStock()}{ProvideStock()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_provider_a7a8ae22c6fa2ce8c2436cdf2d0101fb2} 
+void class16.\+Provider.\+Provide\+Stock (\begin{DoxyParamCaption}\item[{Guid}]{product\+Id}{, }\item[{int}]{quantity}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classclass16_1_1_provider_a000914879f89ec41c40eadfe0fecca14}\index{class16.Provider@{class16.Provider}!Validate@{Validate}}
+\index{Validate@{Validate}!class16.Provider@{class16.Provider}}
+\doxysubsubsection{\texorpdfstring{Validate()}{Validate()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_provider_a000914879f89ec41c40eadfe0fecca14} 
+bool class16.\+Provider.\+Validate (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_i_validator_aa0e087b498d437f57594bb918f37d7e5}{class16.\+IValidator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Projects/tecsup/class16/class16/\mbox{\hyperlink{_provider_8cs}{Provider.\+cs}}\end{DoxyCompactItemize}

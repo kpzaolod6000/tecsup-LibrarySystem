@@ -1,0 +1,119 @@
+\doxysection{class16.\+Sale\+Base Class Reference}
+\hypertarget{classclass16_1_1_sale_base}{}\label{classclass16_1_1_sale_base}\index{class16.SaleBase@{class16.SaleBase}}
+
+
+Inherits \mbox{\hyperlink{interfaceclass16_1_1_i_sale}{class16.\+ISale}}.
+
+
+
+Inherited by \mbox{\hyperlink{classclass16_1_1_online_sale}{class16.\+Online\+Sale}}, and \mbox{\hyperlink{classclass16_1_1_presential_sale}{class16.\+Presential\+Sale}}.
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classclass16_1_1_sale_base_abb54045b8c9b9237a195e35a1df7938d}{Sale\+Base}} (\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}} order, \mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}} payment, \mbox{\hyperlink{classclass16_1_1_user}{User}} buyer, \mbox{\hyperlink{classclass16_1_1_user}{User}} seller)
+\item 
+void \mbox{\hyperlink{classclass16_1_1_sale_base_aae5204bce833e4d0559965f8cf029584}{Add\+Discount}} (\mbox{\hyperlink{interfaceclass16_1_1_i_discount}{IDiscount}} discount)
+\item 
+void \mbox{\hyperlink{classclass16_1_1_sale_base_af86ff85dadd78ed29476e0b8a18f6647}{Execute}} ()
+\item 
+virtual void \mbox{\hyperlink{classclass16_1_1_sale_base_a67923c01ed30ee2842f43affe3b45a0f}{Cancel}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}} \mbox{\hyperlink{classclass16_1_1_sale_base_a6d794e60dd7a6d1977d9ad8fee0f1a4f}{Order}}
+\item 
+\mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}} \mbox{\hyperlink{classclass16_1_1_sale_base_a26319d07fb98f887b855c75f56a27aab}{Payment\+Method}}
+\item 
+\mbox{\hyperlink{classclass16_1_1_user}{User}} \mbox{\hyperlink{classclass16_1_1_sale_base_a9c270f9bf291e51c8198069c5ff0210c}{Buyer}}
+\item 
+\mbox{\hyperlink{classclass16_1_1_user}{User}} \mbox{\hyperlink{classclass16_1_1_sale_base_a0e04b7ebe95b454242f2357ec6576901}{Seller}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{interfaceclass16_1_1_i_discount}{IDiscount}} $>$ \mbox{\hyperlink{classclass16_1_1_sale_base_ab8c0b9e02211fe5264eb737f23b69b54}{Sale\+Discounts}} = new List$<$\mbox{\hyperlink{interfaceclass16_1_1_i_discount}{IDiscount}}$>$()
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{classclass16_1_1_sale_base_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classclass16_1_1_sale_base_abb54045b8c9b9237a195e35a1df7938d}\index{class16.SaleBase@{class16.SaleBase}!SaleBase@{SaleBase}}
+\index{SaleBase@{SaleBase}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{SaleBase()}{SaleBase()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_abb54045b8c9b9237a195e35a1df7938d} 
+class16.\+Sale\+Base.\+Sale\+Base (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}}}]{order}{, }\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}}}]{payment}{, }\item[{\mbox{\hyperlink{classclass16_1_1_user}{User}}}]{buyer}{, }\item[{\mbox{\hyperlink{classclass16_1_1_user}{User}}}]{seller}{}\end{DoxyParamCaption})}
+
+
+
+\label{doc-func-members}
+\Hypertarget{classclass16_1_1_sale_base_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classclass16_1_1_sale_base_aae5204bce833e4d0559965f8cf029584}\index{class16.SaleBase@{class16.SaleBase}!AddDiscount@{AddDiscount}}
+\index{AddDiscount@{AddDiscount}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{AddDiscount()}{AddDiscount()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_aae5204bce833e4d0559965f8cf029584} 
+void class16.\+Sale\+Base.\+Add\+Discount (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_discount}{IDiscount}}}]{discount}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classclass16_1_1_sale_base_a67923c01ed30ee2842f43affe3b45a0f}\index{class16.SaleBase@{class16.SaleBase}!Cancel@{Cancel}}
+\index{Cancel@{Cancel}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{Cancel()}{Cancel()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_a67923c01ed30ee2842f43affe3b45a0f} 
+virtual void class16.\+Sale\+Base.\+Cancel (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_i_sale_a8047ff90bc58111ae882819c045955ae}{class16.\+ISale}}.
+
+\Hypertarget{classclass16_1_1_sale_base_af86ff85dadd78ed29476e0b8a18f6647}\index{class16.SaleBase@{class16.SaleBase}!Execute@{Execute}}
+\index{Execute@{Execute}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_af86ff85dadd78ed29476e0b8a18f6647} 
+void class16.\+Sale\+Base.\+Execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_i_sale_afcf6579cff7f22a58f5f660aa3019b9d}{class16.\+ISale}}.
+
+
+
+\label{doc-variable-members}
+\Hypertarget{classclass16_1_1_sale_base_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classclass16_1_1_sale_base_a9c270f9bf291e51c8198069c5ff0210c}\index{class16.SaleBase@{class16.SaleBase}!Buyer@{Buyer}}
+\index{Buyer@{Buyer}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{Buyer}{Buyer}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_a9c270f9bf291e51c8198069c5ff0210c} 
+\mbox{\hyperlink{classclass16_1_1_user}{User}} class16.\+Sale\+Base.\+Buyer}
+
+\Hypertarget{classclass16_1_1_sale_base_a6d794e60dd7a6d1977d9ad8fee0f1a4f}\index{class16.SaleBase@{class16.SaleBase}!Order@{Order}}
+\index{Order@{Order}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{Order}{Order}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_a6d794e60dd7a6d1977d9ad8fee0f1a4f} 
+\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}} class16.\+Sale\+Base.\+Order}
+
+\Hypertarget{classclass16_1_1_sale_base_a26319d07fb98f887b855c75f56a27aab}\index{class16.SaleBase@{class16.SaleBase}!PaymentMethod@{PaymentMethod}}
+\index{PaymentMethod@{PaymentMethod}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{PaymentMethod}{PaymentMethod}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_a26319d07fb98f887b855c75f56a27aab} 
+\mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}} class16.\+Sale\+Base.\+Payment\+Method}
+
+\Hypertarget{classclass16_1_1_sale_base_ab8c0b9e02211fe5264eb737f23b69b54}\index{class16.SaleBase@{class16.SaleBase}!SaleDiscounts@{SaleDiscounts}}
+\index{SaleDiscounts@{SaleDiscounts}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{SaleDiscounts}{SaleDiscounts}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_ab8c0b9e02211fe5264eb737f23b69b54} 
+List$<$\mbox{\hyperlink{interfaceclass16_1_1_i_discount}{IDiscount}}$>$ class16.\+Sale\+Base.\+Sale\+Discounts = new List$<$\mbox{\hyperlink{interfaceclass16_1_1_i_discount}{IDiscount}}$>$()\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classclass16_1_1_sale_base_a0e04b7ebe95b454242f2357ec6576901}\index{class16.SaleBase@{class16.SaleBase}!Seller@{Seller}}
+\index{Seller@{Seller}!class16.SaleBase@{class16.SaleBase}}
+\doxysubsubsection{\texorpdfstring{Seller}{Seller}}
+{\footnotesize\ttfamily \label{classclass16_1_1_sale_base_a0e04b7ebe95b454242f2357ec6576901} 
+\mbox{\hyperlink{classclass16_1_1_user}{User}} class16.\+Sale\+Base.\+Seller}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Projects/tecsup/class16/class16/\mbox{\hyperlink{_sales_8cs}{Sales.\+cs}}\end{DoxyCompactItemize}

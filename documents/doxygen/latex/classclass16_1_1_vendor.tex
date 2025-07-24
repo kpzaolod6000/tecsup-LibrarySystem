@@ -1,0 +1,78 @@
+\doxysection{class16.\+Vendor Class Reference}
+\hypertarget{classclass16_1_1_vendor}{}\label{classclass16_1_1_vendor}\index{class16.Vendor@{class16.Vendor}}
+
+
+Inherits \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}, \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_vendor}{class16.\+Tools.\+IVendor}}, \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_vendor_data_input}{class16.\+Tools.\+IVendor\+Data\+Input}}, and \mbox{\hyperlink{interfaceclass16_1_1_i_validator}{class16.\+IValidator}}.
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classclass16_1_1_vendor_a721a8451b7e5655e9ddf13bce3a5f388}{Input\+Data}} (string name, string email, string vendor\+Code)
+\item 
+bool \mbox{\hyperlink{classclass16_1_1_vendor_a2b4911a39a95c3bc1d0411816ed6bfea}{Validate}} ()
+\item 
+override void \mbox{\hyperlink{classclass16_1_1_vendor_ae3cb66a4791962b061c035aff3be70cf}{Print}} ()
+\item 
+void \mbox{\hyperlink{classclass16_1_1_vendor_a901e20062eda1cbdb171c4a02cc7b977}{Make\+Sale}} (\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}} order, \mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}} payment\+Method, \mbox{\hyperlink{classclass16_1_1_sale_service}{Sale\+Service}} service, \mbox{\hyperlink{classclass16_1_1_user}{User}} buyer, bool online)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classclass16_1_1_user_a0c6a31b852002348fe078c9bd8dea0c4}{User}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classclass16_1_1_user_a614e04ac409ecaffd1839119991c7f67}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{classclass16_1_1_vendor_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classclass16_1_1_vendor_a721a8451b7e5655e9ddf13bce3a5f388}\index{class16.Vendor@{class16.Vendor}!InputData@{InputData}}
+\index{InputData@{InputData}!class16.Vendor@{class16.Vendor}}
+\doxysubsubsection{\texorpdfstring{InputData()}{InputData()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_vendor_a721a8451b7e5655e9ddf13bce3a5f388} 
+void class16.\+Vendor.\+Input\+Data (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{string}]{email}{, }\item[{string}]{vendor\+Code}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_vendor_data_input_a6235d1122515c17d7413b93460d60186}{class16.\+Tools.\+IVendor\+Data\+Input}}.
+
+\Hypertarget{classclass16_1_1_vendor_a901e20062eda1cbdb171c4a02cc7b977}\index{class16.Vendor@{class16.Vendor}!MakeSale@{MakeSale}}
+\index{MakeSale@{MakeSale}!class16.Vendor@{class16.Vendor}}
+\doxysubsubsection{\texorpdfstring{MakeSale()}{MakeSale()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_vendor_a901e20062eda1cbdb171c4a02cc7b977} 
+void class16.\+Vendor.\+Make\+Sale (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}}}]{order}{, }\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}}}]{payment\+Method}{, }\item[{\mbox{\hyperlink{classclass16_1_1_sale_service}{Sale\+Service}}}]{service}{, }\item[{\mbox{\hyperlink{classclass16_1_1_user}{User}}}]{buyer}{, }\item[{bool}]{online}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_vendor_a249b9ad0c11f5a06716bc49eb4e5b132}{class16.\+Tools.\+IVendor}}.
+
+\Hypertarget{classclass16_1_1_vendor_ae3cb66a4791962b061c035aff3be70cf}\index{class16.Vendor@{class16.Vendor}!Print@{Print}}
+\index{Print@{Print}!class16.Vendor@{class16.Vendor}}
+\doxysubsubsection{\texorpdfstring{Print()}{Print()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_vendor_ae3cb66a4791962b061c035aff3be70cf} 
+override void class16.\+Vendor.\+Print (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classclass16_1_1_user_af661c0ab9d99caaad43e0f43df0aab62}{class16.\+User}}.
+
+\Hypertarget{classclass16_1_1_vendor_a2b4911a39a95c3bc1d0411816ed6bfea}\index{class16.Vendor@{class16.Vendor}!Validate@{Validate}}
+\index{Validate@{Validate}!class16.Vendor@{class16.Vendor}}
+\doxysubsubsection{\texorpdfstring{Validate()}{Validate()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_vendor_a2b4911a39a95c3bc1d0411816ed6bfea} 
+bool class16.\+Vendor.\+Validate (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_i_validator_aa0e087b498d437f57594bb918f37d7e5}{class16.\+IValidator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Projects/tecsup/class16/class16/\mbox{\hyperlink{_vendor_8cs}{Vendor.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,102 @@
+\doxysection{class16.\+Client Class Reference}
+\hypertarget{classclass16_1_1_client}{}\label{classclass16_1_1_client}\index{class16.Client@{class16.Client}}
+
+
+Inherits \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}, \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_client}{class16.\+Tools.\+IClient}}, \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_client_data_input}{class16.\+Tools.\+IClient\+Data\+Input}}, and \mbox{\hyperlink{interfaceclass16_1_1_i_validator}{class16.\+IValidator}}.
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classclass16_1_1_client_a45a3e5ee3f1cd9149eac913fd7ea0df8}{Input\+Data}} (string name, string email, string shipping\+Address)
+\item 
+bool \mbox{\hyperlink{classclass16_1_1_client_a199997ea620baecdbf2a9fee31f7646d}{Validate}} ()
+\item 
+override void \mbox{\hyperlink{classclass16_1_1_client_acee49e4ea7850c08ba1418c31ff8d241}{Print}} ()
+\item 
+void \mbox{\hyperlink{classclass16_1_1_client_aca671cb4010e4779d643bd648ee554cd}{Purchase}} (double amount, \mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}} payment\+Method)
+\item 
+void \mbox{\hyperlink{classclass16_1_1_client_ac25755fd57696f6528dffc90978d6ea0}{Place\+Order}} (\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}} order, \mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}} payment\+Method, \mbox{\hyperlink{classclass16_1_1_sale_service}{Sale\+Service}} service, \mbox{\hyperlink{classclass16_1_1_user}{User}} seller, bool online)
+\item 
+void \mbox{\hyperlink{classclass16_1_1_client_ae48263db47f4d15fb5a00a3dabd65983}{Cancel\+Order}} (\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}} order)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classclass16_1_1_user_a0c6a31b852002348fe078c9bd8dea0c4}{User}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{classclass16_1_1_user}{class16.\+User}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classclass16_1_1_user_a614e04ac409ecaffd1839119991c7f67}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{classclass16_1_1_client_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classclass16_1_1_client_ae48263db47f4d15fb5a00a3dabd65983}\index{class16.Client@{class16.Client}!CancelOrder@{CancelOrder}}
+\index{CancelOrder@{CancelOrder}!class16.Client@{class16.Client}}
+\doxysubsubsection{\texorpdfstring{CancelOrder()}{CancelOrder()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_client_ae48263db47f4d15fb5a00a3dabd65983} 
+void class16.\+Client.\+Cancel\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}}}]{order}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_client_a8c077ea85897049d1edfa0b34a02e571}{class16.\+Tools.\+IClient}}.
+
+\Hypertarget{classclass16_1_1_client_a45a3e5ee3f1cd9149eac913fd7ea0df8}\index{class16.Client@{class16.Client}!InputData@{InputData}}
+\index{InputData@{InputData}!class16.Client@{class16.Client}}
+\doxysubsubsection{\texorpdfstring{InputData()}{InputData()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_client_a45a3e5ee3f1cd9149eac913fd7ea0df8} 
+void class16.\+Client.\+Input\+Data (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{string}]{email}{, }\item[{string}]{shipping\+Address}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_client_data_input_a64af7872edcf30765b08210e33b7210a}{class16.\+Tools.\+IClient\+Data\+Input}}.
+
+\Hypertarget{classclass16_1_1_client_ac25755fd57696f6528dffc90978d6ea0}\index{class16.Client@{class16.Client}!PlaceOrder@{PlaceOrder}}
+\index{PlaceOrder@{PlaceOrder}!class16.Client@{class16.Client}}
+\doxysubsubsection{\texorpdfstring{PlaceOrder()}{PlaceOrder()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_client_ac25755fd57696f6528dffc90978d6ea0} 
+void class16.\+Client.\+Place\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_order}{IOrder}}}]{order}{, }\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}}}]{payment\+Method}{, }\item[{\mbox{\hyperlink{classclass16_1_1_sale_service}{Sale\+Service}}}]{service}{, }\item[{\mbox{\hyperlink{classclass16_1_1_user}{User}}}]{seller}{, }\item[{bool}]{online}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_client_a797db777005bc0a491aa7feb274ee9a5}{class16.\+Tools.\+IClient}}.
+
+\Hypertarget{classclass16_1_1_client_acee49e4ea7850c08ba1418c31ff8d241}\index{class16.Client@{class16.Client}!Print@{Print}}
+\index{Print@{Print}!class16.Client@{class16.Client}}
+\doxysubsubsection{\texorpdfstring{Print()}{Print()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_client_acee49e4ea7850c08ba1418c31ff8d241} 
+override void class16.\+Client.\+Print (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classclass16_1_1_user_af661c0ab9d99caaad43e0f43df0aab62}{class16.\+User}}.
+
+\Hypertarget{classclass16_1_1_client_aca671cb4010e4779d643bd648ee554cd}\index{class16.Client@{class16.Client}!Purchase@{Purchase}}
+\index{Purchase@{Purchase}!class16.Client@{class16.Client}}
+\doxysubsubsection{\texorpdfstring{Purchase()}{Purchase()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_client_aca671cb4010e4779d643bd648ee554cd} 
+void class16.\+Client.\+Purchase (\begin{DoxyParamCaption}\item[{double}]{amount}{, }\item[{\mbox{\hyperlink{interfaceclass16_1_1_i_payment_method}{IPayment\+Method}}}]{payment\+Method}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_tools_1_1_i_client_a2eb03ee539de775d8d5fe120e06f1d42}{class16.\+Tools.\+IClient}}.
+
+\Hypertarget{classclass16_1_1_client_a199997ea620baecdbf2a9fee31f7646d}\index{class16.Client@{class16.Client}!Validate@{Validate}}
+\index{Validate@{Validate}!class16.Client@{class16.Client}}
+\doxysubsubsection{\texorpdfstring{Validate()}{Validate()}}
+{\footnotesize\ttfamily \label{classclass16_1_1_client_a199997ea620baecdbf2a9fee31f7646d} 
+bool class16.\+Client.\+Validate (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interfaceclass16_1_1_i_validator_aa0e087b498d437f57594bb918f37d7e5}{class16.\+IValidator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Projects/tecsup/class16/class16/\mbox{\hyperlink{_client_8cs}{Client.\+cs}}\end{DoxyCompactItemize}
