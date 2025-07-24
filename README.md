@@ -51,23 +51,24 @@ El sistema permite la interacción mediante diferentes roles: Administrador, Pro
 
 ## Estructura del Proyecto
 
-├── /Tools
-│ ├── Discount.cs
-│ ├── DiscountServices.cs
-│ ├── PaymenthMethod.cs
-│ ├── Roles.cs
-│ ├── SalesServices.cs
+/ (raíz del proyecto)
+├── Program.cs
 ├── Admin.cs
 ├── Client.cs
 ├── Order.cs
 ├── PaymenthService.cs
 ├── Product.cs
-├── Program.cs
 ├── Provider.cs
 ├── Repository.cs
 ├── Sales.cs
 ├── User.cs
 ├── Vendor.cs
+└── /Tools
+    ├── Discount.cs
+    ├── DiscountServices.cs
+    ├── PaymenthMethod.cs
+    ├── Roles.cs
+    └── SalesServices.cs
 
 ## Autor
 Kelvin Pucho
